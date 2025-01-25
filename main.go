@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	filePath := flag.String("file", "", "Path to the CSV file")
-	outputFile := flag.String("out", "", "Path to output SQL file")
+	filePath := flag.String("csv", "", "Path to the CSV file")
+	outputFile := flag.String("sql", "", "Path to output SQL file")
 	tableName := flag.String("table", "", "Insert table name")
 	flag.Parse()
 
